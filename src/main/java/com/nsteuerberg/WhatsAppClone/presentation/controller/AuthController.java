@@ -12,4 +12,9 @@ public class AuthController {
     public ResponseEntity<?> signIn() {
         return null;
     }
+
+    @PostMapping("register")
+    public ResponseEntity<?> signUp() {
+        return null;
+    }
 }

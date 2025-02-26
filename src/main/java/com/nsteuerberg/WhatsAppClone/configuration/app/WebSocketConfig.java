@@ -1,14 +1,11 @@
 package com.nsteuerberg.WhatsAppClone.configuration.app;
 
-import com.nsteuerberg.WhatsAppClone.service.implementations.ChatSocketHandler;
+import com.nsteuerberg.WhatsAppClone.presentation.controller.ChatSocketHandler;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.socket.config.annotation.EnableWebSocket;
 import org.springframework.web.socket.config.annotation.WebSocketConfigurer;
 import org.springframework.web.socket.config.annotation.WebSocketHandlerRegistry;
-
-import java.security.Principal;
-import java.util.Map;
 
 @Configuration
 @EnableWebSocket
